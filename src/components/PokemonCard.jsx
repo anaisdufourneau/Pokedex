@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 
-function PokemonCard({ pokemon }) {
+export default function PokemonCard({ pokemon }) {
   return (
     <>
       <figure>
@@ -17,4 +17,4 @@ PokemonCard.propTypes = {
   }),
 };
 
-export default PokemonCard;
+
